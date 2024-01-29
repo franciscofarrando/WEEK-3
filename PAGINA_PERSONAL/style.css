@@ -1,0 +1,106 @@
+#header-img{
+    width: 280px;
+    border-radius: 50%;
+    border: 6px rgb(255, 255, 255) solid;
+    margin: 15px;
+}
+header{
+    
+    background-image: url(img/header-img.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid ;
+    background-color: rgba(41, 41, 41, 0.199);
+    text-shadow: 2px 5px #44444465;
+    color: rgb(240, 243, 243);
+    
+}
+.header-info{
+    display: flex;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items:center;
+    gap: 50px;
+    padding: 20px;
+    
+
+  
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(221, 221, 220, 0.582);
+    font-size:x-large;
+    list-style-type: none;
+    margin: 15px 50px 15px 15px;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+.sub-container{
+    
+    width:auto ;
+    border: solid;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(231, 231, 231);
+}
+.card{
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.card-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
+.card-body{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+card-text{
+padding: 10px;
+
+}
+.img-presentation{
+    height: 500px;
+display: flex;
+flex-wrap: wrap;
+border: solid;
+border-radius: 20px;
+gap: 5px;
+padding: 5px;
+background-color: rgb(255, 255, 255);
+justify-content: space-around;
+align-items: center;
+
+}
+
+.card:hover {
+    display: flex;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px #83828252;
+    transition: 0.5s;
+}

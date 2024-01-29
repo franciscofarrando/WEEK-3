@@ -1,0 +1,54 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 50px;
+    gap: 50px
+    
+    
+    
+}
+.reccir{
+    width: 280px;
+    height: 280px;
+    background-color: brown;
+    transition: 0.8s;
+    
+}
+.reccir:hover{
+    background-color: blue;
+    border-radius: 50%;
+    scale:30%;
+
+}
+.court{
+    width: 200px;
+    height: 500px;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ball{
+
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    position: relative;
+    animation: revotar 1.5s infinite;
+    
+    
+}
+
+@keyframes revotar {
+    0% {top: 0px;}
+    40% {top:400px}
+    41% {top: 401; width: 140px;}
+    42% {width: 100px;}
+    100% {top: 0px;}
+        
+}

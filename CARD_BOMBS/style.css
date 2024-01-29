@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: solid 8px rgb(252, 211, 210);
+    background-color: rgb(231, 145, 63);
+    background-image: url(img/bomba.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+       
+}
+
+.card-text{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+    font-size: 40px;
+}
+
+.card:hover{
+    transform: 
+        rotate(30deg) 
+        scale(200%) 
+        translate(30px, 30px);
+    transition: 0.5s;
+    background-image: url(img/explosion.jpeg);
+    background-size: cover;
+}
+
+.card2{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: solid 8px rgb(252, 211, 210);
+    background-color: rgb(231, 145, 63);
+    background-image: url(img/bomba.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+       
+}
+.card2:hover{
+    transform: 
+        rotate(30deg) 
+        scale(200%) 
+        translate(30px, 30px);
+    transition: 0.5s;
+    background-image: url(img/brocoli.webp);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
