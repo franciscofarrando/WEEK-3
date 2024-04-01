@@ -1,0 +1,13 @@
+LABS ANIMACION
+
+1- Solo con hover y transition: tienes un cuadrado de un color, y cuando pasas el ratón por encima, se cambia a un círculo de otro color.
+
+
+2- Con @keyframes: hacer que una pelota rebote verticalmente. Puede añadirse distorsión a la pelota o no (cuando choca contra el suelo se aplasta). Hacer un loop infinito.
+Info en: https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php
+Recordar que hacen falta al menos: el nombre, la duración y la cantidad de veces de la animación:
+animation: iryvenir 2s 3;
+
+
+3- +EXTRA: crear un anuncio con al menos tres elementos: un logo, un slogan y una imagen (de fondo o no). Implica crear TRES o más animaciones diferentes, uno para cada elemento. También se le puede dar un delay para que no arranque al momento.
+Ejemplo: logo: concesionario PACO, slogan: “nos los quitan de las manos”, imagen coches que cruzan.
