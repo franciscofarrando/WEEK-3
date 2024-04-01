@@ -104,3 +104,8 @@ align-items: center;
     box-shadow: 5px 5px #83828252;
     transition: 0.5s;
 }
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.377);
+}
